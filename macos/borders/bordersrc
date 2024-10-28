@@ -1,0 +1,20 @@
+#!/bin/bash
+
+options=(
+
+  style=round
+
+  active_color=0xff87898c
+  inactive_color=0xff65686b
+
+  blur_radius=1
+  width=7
+  hidpi=on
+
+  #ax_focus=on
+
+  #blacklist=<application_list>
+  #whitelist=<application_list>
+)
+
+borders "${options[@]}"
